@@ -31,6 +31,13 @@ final class OTSHelper
         ]);
     }
 
+    /**
+     * @param string $tableName tableStore表名
+     * @param array $primaryKeys 查询的主键数据
+     * @return string
+     * @throws \Aliyun\OTS\OTSClientException
+     * @throws \Aliyun\OTS\OTSServerException
+     */
     public function getTableColumnsByRiskId(string $tableName, array $primaryKeys): string
     {
         $request = [

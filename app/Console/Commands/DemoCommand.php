@@ -41,12 +41,12 @@ class DemoCommand extends Command
     public function handle()
     {
 //
-        $str = \OTS::getTableColumnsByRiskId("risk_upa_data",
+        $str = \OTS::getTableColumnsByRiskId("risk_tz_total_debt",
             [
-                "row_key" => "0RsrkEUonWQmSQh4HIDBdppkIBVELTFAHtGqqd/v0AM=",
-                "risk_id" => "RR2020040219434556377779361556906",
-                "cert_no" => "dBtH98A6f46F6bCwu30iE2b3kciNVEolEwZW/7ix7Cw=",
-                "mobile" => "3GmkU1BSxZZ0JqwFRgfY4g==",
+                "row_key" => "paIncbslt4EFSN6T5lK7wOOa7yq8Bw4rSJ1bSiJ/E6I=",
+                "risk_id" => "RR2020051514584946777779606847336",
+                "cert_no" => "c4keJSgMQE0zn/aw1mlxRfrPVyhb7ITqaZyaLSLcJA8=",
+                "mobile" => "C1sw73iSe/ZRzW4HJBSq/A==",
             ]
         );
         dd($str);
